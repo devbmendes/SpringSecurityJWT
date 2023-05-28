@@ -20,5 +20,6 @@
  How it works
  </h3>
  <div align="center">
- <img height="300px" width="800px" center src="https://github.com/devbmendes/SpringSecurity-JWT/assets/57733068/b825ef85-d3ea-4e97-babd-bd71bcc3eabb" />
+ <img height="300px" width="800px" center src="https://github.com/devbmendes/SpringSecurityJWT/assets/57733068/b44116cb-f040-416c-b68b-ee788b249d84" />
  </div>
+
