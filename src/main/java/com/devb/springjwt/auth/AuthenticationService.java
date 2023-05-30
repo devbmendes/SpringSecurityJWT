@@ -1,5 +1,5 @@
 package com.devb.springjwt.auth;
 
-public class RegisterRequest {
+public class AuthenticationService {
 
 }
