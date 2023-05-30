@@ -14,7 +14,7 @@ import lombok.RequiredArgsConstructor;
 
 @Component
 @RequiredArgsConstructor
-public class JWTAutenticationFilter extends OncePerRequestFilter {
+public class JwtAuthenticationFilter extends OncePerRequestFilter {
 
 	@Override
 	protected void doFilterInternal(HttpServletRequest request, 
@@ -24,12 +24,14 @@ public class JWTAutenticationFilter extends OncePerRequestFilter {
 		
 		final String authHeader = request.getHeader("Authorization");
 		final String jwt;
+		final String userEmail;
 
 		if(authHeader == null || authHeader.startsWith("Bearer ")) {
 			filterChain.doFilter(request, response);
 			return;
 		}
 		jwt = authHeader.substring(7);
+		
 	}
 
 }
