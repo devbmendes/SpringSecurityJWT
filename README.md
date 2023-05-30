@@ -1,4 +1,4 @@
-# Spring Security whith JWT - Jason Web Token
+# Spring Security with JWT - Jason Web Token
 <p> Security is a must when designing and building API and it is a really important to understand Spring Security and JWT so that you can secure your API <p/>
 <h3> When should you use JSON Web Tokens? </h3>
 <h3> Authorization:</h3>
