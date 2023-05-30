@@ -1,4 +1,4 @@
-package com.devb.springjwt.service;
+package com.devb.springjwt.config;
 
 
 import io.jsonwebtoken.Claims;
